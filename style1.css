@@ -1,0 +1,147 @@
+table,td,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+
+#songs,#movie,#cast,#otfc {
+  
+  font-family: "Lucida Console",monospace;
+}
+
+#l2{
+	
+	width: 50%;
+  	padding: 10px;
+  	border: 5px dotted red;
+  	margin: 0;
+}
+
+#l1{
+	
+  	width: 50%;
+  	padding: 10px;
+  	border: 5px dotted red;
+ 	margin: 0;
+}
+
+body{
+	width: 97%;
+	margin: auto;
+	background-color: #ee99a0;
+}
+
+
+#top1{
+  display: inline;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  /*margin: 100px;*/
+}
+
+#main1{
+	display: inline;
+	width: 25%;
+	height:25%;
+	padding-left: 450px;
+}
+
+#title1{
+	display: inline;
+	width: 25%;
+	height:25%;
+	position: relative;
+	bottom: 125px;
+}
+#title2{
+	display: inline;
+	width: 25%;
+	height:25%;
+	position: relative;
+	bottom: 95px;
+	left: 1px;
+	right: 100px;
+	font: "Didot";
+
+}
+
+
+
+video
+{
+	display: inline;
+	/*float: left;*/
+
+}
+#pics {
+	
+	margin-left: 520px;
+	margin-top: 25px;
+  width: 500px;
+  height: 500px;
+  /*background-color: red;*/
+  background-image: url("https://1847884116.rsc.cdn77.org/tamil/home/thalapathyvijay2082020.jpg"); 
+  background-size: 500px 500px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {
+  	background-image: url("https://1847884116.rsc.cdn77.org/tamil/home/thalapathyvijay2082020.jpg"); 
+  	left:0px; 
+  	top:0px;
+  	background-size: 500px 500px;
+  }
+  25%  {background-image: url("https://www.india.com/wp-content/uploads/2021/01/master-box-office-day-3-100-crore-for-thalapathy-vijay-starrer-worldwide.jpg"); left:600px; top:0px;
+  		background-size: 500px 500px;
+}
+  50%  {background-image: url("https://wallpapercave.com/wp/wp6553530.jpg"); left:600px; top:400px;background-size: 500px 500px;}
+  75%  {background-image: url("https://i2.wp.com/chennaivision.com/wp-content/uploads/2020/12/vijay-e1607678567489.jpg?fit=1199%2C999&ssl=1"); left:0px; top:400px;background-size: 500px 500px;}
+  100% {background-image: url("https://1847884116.rsc.cdn77.org/tamil/home/thalapathyvijay2082020.jpg"); left:0px; top:0px;background-size: 500px 500px;}
+}
+.nav {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #9f5f80;
+  height: 50px;
+}
+.nav a:hover{
+	background-color: #111;
+	color: white;
+	transition: background-color 0.3s;
+
+}
+
+.nav {
+  
+}
+.nav a {
+	float: right;
+  	display: inline;
+  	text-decoration: none;
+  	color: #000000;
+  	margin: 7px;
+  	padding: 8px;
+  	font-size: 20px;
+}
+/*nav
+{
+	float: right;
+	margin-top: 10px;
+		
+	overflow: hidden;
+
+}
+nav a {
+  			
+  	padding: 8px;*/
+}*/
